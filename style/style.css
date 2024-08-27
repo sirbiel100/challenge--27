@@ -17,8 +17,8 @@ section{
     flex-direction: column;
     align-items: center;
     gap: 1.8em;
-    width: clamp(14em, 11em + 11vw, 24em);
-    padding: 1.5em;
+    width: clamp(14em, 13em + 13vw, 28em);
+    padding: 2.5em;
     border-radius: .5em;
     background-color: var(--Grey800);
 }

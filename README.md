@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Visit](https://www.frontendmentor.io/solutions/social-links-profile-html-and-css-o4luPc3pFg)
+- Live Site URL: [Visit](https://sirbiel100.github.io/challenge--27/)
 
 ## My process
 
