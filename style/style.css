@@ -1,0 +1,86 @@
+:root{
+    --Green: #c5f82a;
+    --White: #fff;
+    --Grey700: #333333;
+    --Grey800: #1f1f1f;
+    --Grey900: #141414;
+}
+
+body{
+    background-color: var(--Grey900);
+    display: grid;
+    place-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8em;
+    width: clamp(14em, 11em + 11vw, 24em);
+    padding: 1.5em;
+    border-radius: .5em;
+    background-color: var(--Grey800);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+header img{
+    width: clamp(3em, 2.5em + 2.5em, 5.5em);
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+header div p{
+    font-size: clamp(1.5rem, .8rem + .8vw, 2rem);
+    color: var(--White);
+    font-weight: 800;
+}
+
+header div small {
+    font-size: clamp(0.8rem, .6rem + .6vw, 1.2rem);
+    font-weight: 600;
+    color: var(--Green);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+main q {
+    text-align: center;
+    color: var(--White);
+    font-weight: 300;
+    font-size: clamp(.9rem, .6rem + .6vw, 1.5rem);
+}
+
+main a {
+    background-color: var(--Grey700);
+    color: var(--White);
+    width: 100%;
+    padding: .8em .5em;
+    text-align: center;
+    border-radius: .5em;
+    transition: all 200ms;
+}
+
+main a:hover{
+    background-color: var(--Green);
+    color: var(--Grey800);
+}
